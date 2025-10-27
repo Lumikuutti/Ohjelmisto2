@@ -12,3 +12,7 @@ class Auto:
         elif self.nopeus < 0:
             self.nopeus = 0
         return
+
+    def move(self, hours):
+        self.kuljettumatka += self.nopeus * hours
+        return
