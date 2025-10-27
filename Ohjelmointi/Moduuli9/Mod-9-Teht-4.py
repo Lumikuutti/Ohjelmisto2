@@ -1,4 +1,4 @@
-from Classes.Auto import Auto
+from Ohjelmointi.Classes.Auto import Auto
 import random
 
 participants = []

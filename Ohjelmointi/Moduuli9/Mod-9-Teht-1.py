@@ -1,4 +1,4 @@
-from Classes.Auto import Auto
+from Ohjelmointi.Classes.Auto import Auto
 
 auto1 = Auto("ABC-123", 142)
 print(f"Juuri luodun auton ominaisuudet ovat: \n"
