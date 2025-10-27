@@ -18,8 +18,10 @@ while not game_over:
     hours_passed += 1
     game_over = kilpailu1.game_over()
     if (hours_passed % 10 == 0) and not game_over:
+        print("Kymmenen tuntia on kulunut, tässä on tämän hetkinen tilanne. \n")
         kilpailu1.status()
+        print("")
 
-print("Kilpailu on päättynyt! Tässä lopulliset tulokset.")
+print("Kilpailu on päättynyt! Tässä lopulliset tulokset. \n")
 kilpailu1.status()
 
