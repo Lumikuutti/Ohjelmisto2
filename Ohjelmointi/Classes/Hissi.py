@@ -18,3 +18,5 @@ class Hissi:
                 self.down()
             elif self.kerros < kerros:
                 self.up()
+            else:
+                return
