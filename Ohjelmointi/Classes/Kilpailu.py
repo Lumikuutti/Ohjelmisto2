@@ -1,4 +1,4 @@
-from Ohjelmointi.Classes.Auto import Auto
+from Ohjelmointi.Classes.Autot import Auto
 import random
 
 class Kilpailu:

@@ -1,5 +1,5 @@
 from Ohjelmointi.Classes.Kilpailu import Kilpailu
-from Ohjelmointi.Classes.Auto import Auto
+from Ohjelmointi.Classes.Autot import Auto
 import random
 
 participants = []
