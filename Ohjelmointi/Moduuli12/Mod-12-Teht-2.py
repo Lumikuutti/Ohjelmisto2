@@ -1,6 +1,6 @@
 import requests
 
-API = "19f6d732c205e90611a8f5910cf174bd"
+API = "api"
 
 city_name = input("Give the name of your city: ")
 country_code = input("Give the country code: ")
