@@ -6,14 +6,13 @@ let year = start;
 
 while (year <= end) {
   if ((year % 4) === 0 && (year % 100) !== 0) {
-    document.querySelector('#target').innerHTML += (year);
+    document.querySelector('#target').innerHTML += ("<li>" + year + "</li>");
     year += 1;
   } else if ((year % 100) === 0 && (year % 400) === 0) {
-    document.querySelector('#target').innerHTML += (year);
+    document.querySelector('#target').innerHTML += ("<li>" + year + "</li>");
     year += 1;
   }
   else {
     year += 1;
   }
-  //document.querySelector('#target').innerHTML = (year);
 }
