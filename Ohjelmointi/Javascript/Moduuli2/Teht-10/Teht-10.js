@@ -1,17 +1,18 @@
 'use strict'
 
-const list = []
-const candidate = {
-  name: '',
-  votes: 0
+function candidate (candidate) {
+   return {
+    name: candidate,
+    votes: 0
+  }
 }
+const list = []
 const amount = parseInt(prompt('How many candidates are there?'))
 
 for (let i = 0; i <= (amount-1); i += 1) {
   let name = prompt(`Name of candidate ${i+1}`)
   name.toUpperCase()
-  candidate.name = name
-  list[i] = candidate
+  list[i] = candidate(name)
 }
 
 const voters = parseInt(prompt('How many voters are there?'))
