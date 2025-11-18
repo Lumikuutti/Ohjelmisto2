@@ -1,3 +1,5 @@
+import json
+
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -12,10 +14,11 @@ def alkuluku(number):
             prime = False
             break
 
-    vastaus = {
+    raw = {
         "Number": number,
         "isPrime": prime
     }
+    vastaus = json.dumps(raw)
 
     return vastaus
 
