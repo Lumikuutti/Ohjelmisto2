@@ -131,7 +131,7 @@ for (let item of picArray) {
 let zoom = document.createElement('img');
 const cards = document.getElementsByClassName('card');
 for (let i = 0; i < cards.length; i += 1) {
-  cards[i].addEventListener('click', function(evt) {
+  cards[i].addEventListener('click', function() {
     zoom.src = picArray[i].image.large;
     zoom.alt = picArray[i].title;
     dialog.appendChild(zoom);
