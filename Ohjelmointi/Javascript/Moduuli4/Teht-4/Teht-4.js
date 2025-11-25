@@ -21,7 +21,11 @@ searchForm.addEventListener('submit', async function(evt) {
     let article = document.createElement('article');
 // image
     let img = document.createElement('img');
-    img.src = item.show.image?.medium;
+    if (item.show.image === null) {
+      img.src = 'https://placehold.co/210x295?text=Not%20Found';
+    } else {
+      img.src = item.show.image?.medium;
+    }
     img.alt = item.show.name;
 // a element
     let a = document.createElement('a');
