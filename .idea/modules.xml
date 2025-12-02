@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Ohjelmisto1/.idea/Ohjelmisto1.iml" filepath="$PROJECT_DIR$/../Ohjelmisto1/.idea/Ohjelmisto1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonProject.iml" filepath="$PROJECT_DIR$/.idea/PythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ohj_2_proj/.idea/ohj_2_proj.iml" filepath="$PROJECT_DIR$/../ohj_2_proj/.idea/ohj_2_proj.iml" />
     </modules>
   </component>
 </project>
