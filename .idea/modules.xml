@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HRV_Analysis/.idea/HRV_Analysis.iml" filepath="$PROJECT_DIR$/../HRV_Analysis/.idea/HRV_Analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../HTML-Assingment/.idea/HTML-Assingment.iml" filepath="$PROJECT_DIR$/../HTML-Assingment/.idea/HTML-Assingment.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Ohjelmisto1/.idea/Ohjelmisto1.iml" filepath="$PROJECT_DIR$/../Ohjelmisto1/.idea/Ohjelmisto1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonProject.iml" filepath="$PROJECT_DIR$/.idea/PythonProject.iml" />
